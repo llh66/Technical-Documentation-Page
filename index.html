@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technical Documentation Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav id="navbar">
+        <header>Python Tutorial</header>
+        <a class="nav-link" href="#python_getting_started">Python Getting Started</a>
+        <a class="nav-link" href="#comments">Comments</a>
+        <a class="nav-link" href="#variables">Variables</a>
+        <a class="nav-link" href="#data_types">Data Types</a>
+        <a class="nav-link" href="#functions">Functions</a>
+    </nav>
+    <main id="main-doc">
+        <section class="main-section" id="python_getting_started">
+            <header>Python Getting Started</header>
+            <p>Download Python and follow the instructions from the 
+                <a href="https://www.python.org/downloads/" target="_blank">official website</a>.
+                </p>
+            <p>Create a "helloworld.py" file with code:</p>
+            <code>print("Hello, World!")</code>
+            <p>In the terminal, go to the file's location and run command:</p>
+            <code>python helloworld.py</code>
+            <p>The output should be "Hello, World!" In the future, you can run any Python file with this command and the file name.</p>
+        </section>
+        <section class="main-section" id="comments">
+            <header>Comments</header>
+            <p>Start comments with "#", and Python will ignore the part of the line after it. Example:</p>
+            <code>#A comment</code>
+            <p>With a pair of triple-quotes, multiple lines between them will be ignored. Example: </p>
+            <code>"""<br>Comment line 1<br>Comment line 2<br>"""</code>
+        </section>
+        <section class="main-section" id="variables">
+            <header>Variables</header>
+            <p>To create a variable, simply assign a value to it, there is no need to declare its type. Example: </p>
+            <code>a = 2<br>b = "aaa"<br>print(a)<br>print(b)</code>
+        </section>
+        <section class="main-section" id="data_types">
+            <header>Data Types</header>
+            <p>By default, the built-in data types are: </p>
+            <ul>
+                <li>Text Type: <b>str</b></li>
+                <li>Numeric Types: <b>int, float, complex</b></li>
+                <li>Sequence Types: <b>list, tuple, range</b></li>
+                <li>Mapping Type: <b>dict</b></li>
+                <li>Set Types: <b>set, frozenset</b></li>
+                <li>Boolean Type: <b>bool</b></li>
+                <li>Binary Types: <b>bytes, bytearray, memoryview</b></li>
+                <li>None Type: <b>NoneType</b></li>
+            </ul>
+        </section>
+        <section class="main-section" id="functions">
+            <header>Functions</header>
+            <p>Define a function with "def", and call it with its name. Example:</p>
+            <code>def function_1():<br>
+                <span class="tab">print("This is function 1.")</span><br>
+                <br>function_1()</code>
+            <p>To pass arguments, specify them when defining and pass them when calling. Multiple arguments should be seperated by commas. Example: </p>
+            <code>def function_add(a, b):<br>
+                <span class="tab"></span>print(a + b)<br><br>
+                function_add(1, 3)</code>
+        </section>
+    </main>
+</body>
+</html>
